@@ -1,15 +1,18 @@
 body {
+    background-color: #e5e5dc;
     font-size: 28px;
     margin: 0;
     padding: 0;
 }
-
+h1{
+    position: center;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #000000;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -33,10 +36,11 @@ li a:hover {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #145c9f;
 }
 
 .section {
     padding: 20px;
 }
+
 
