@@ -7,17 +7,65 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Portfolio</title>
+    <style>
+        /* Add some styling to the buttons */
+        .portfolio-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            margin-top: 50px;
+        }
+
+        .portfolio-button {
+            margin-bottom: 20px;
+            padding: 30px 40px;
+            font-size: 36px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 10px;
+            width: 12%;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .portfolio-button:hover {
+            background-color: #2980b9;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px; /* Adjust padding as needed */
+        }
+    </style>
 </head>
 <body>
     <ul>
         <li><a class="active" href="about.html">About Me</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="resume.html">Resume</a></li>
+        <li><a class="active" href="resume.html">Resume</a></li>
         <li><a href="hobbies.html">Hobbies</a></li>
     </ul>
     <div id="portfolio" class="section">
-        <h3>Portfolio Section</h3>
-        <p>Showcase your projects and work here.</p>
+        <h3>Projects I've worked on:</h3>
+       
+
+        <!-- Add two large buttons with links -->
+        <div class="portfolio-buttons">
+            <a href="project_1.html" class="portfolio-button">Hermes Lens</a>
+            <a href="project_2.html" class="portfolio-button">Street Fighter</a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+          
+        </p>
     </div>
 </body>
 </html>
