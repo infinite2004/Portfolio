@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <style>
         div.scroll-container,
@@ -79,7 +81,7 @@
             width: 280px; /* Adjusted width to leave space for padding */
             height: 280px; /* Adjusted height to leave space for padding */
             border-radius: 10px; /* Added border-radius */
-            transition: border-radius 0.3s ease-in-out; /* Added transition effect */
+            transition: border-radius 0.4s ease-in-out; /* Added transition effect */
         }
 
         div.scroll-container img:hover {
@@ -89,17 +91,44 @@
         p {
             margin-right: 320px; /* Adjusted margin to leave space for the slideshow */
         }
+        div.scroll-container-circuit img:hover {
+            border-radius: 50%; /* Change border-radius on hover */
+        }
+
+        p {
+            margin-right: 320px; /* Adjusted margin to leave space for the slideshow */
+        }
+        div.scroll-container-anime img:hover {
+            border-radius: 50%; /* Change border-radius on hover */
+        }
+
+        p {
+            margin-right: 320px; /* Adjusted margin to leave space for the slideshow */
+        }
+        div.container-me img:hover{
+            border-radius: 100%; /* Change border-radius on hover */
+        }
+
+        p {
+            margin-right: 320px; /* Adjusted margin to leave space for the slideshow */
+        }
+        
         
         .footer {
             position: fixed;
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: rgb(0, 0, 0);
+            background-color: black;
             color: white;
-            text-align: justify;
-            height: 30px; /* Adjust the height as needed */
-            line-height: 30px;
+            text-align: center;
+            padding: 1px; /* Adjust padding as needed */
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px; /* Add some spacing between the links */
         }
         img.rounded-corners {
             border-radius: 50px;
@@ -111,20 +140,23 @@
     <ul>
         <li><a class="active" href="about.html">About Me</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="resume.html">Resume</a></li>
+        <li><a class="active" href="resume.html">Resume</a></li>
         <li><a href="hobbies.html">Hobbies</a></li>
     </ul>
     <div id="portfolio" class="section">
        
-        <div class="typewriter" style="white-space: pre-wrap;">I am a sophomore at NYU and I love to create&#10;from drawing in my sketchbook to writing code&#10;for communicating with a circuit. I like to&#10;make whatever comes to my mind by using various&#10;technologies and prototyping concepts. I love to read&#10;manga and watch anime. I am heavily inspired by Code&#10;Geass in my sketches and even in some of my ideas&#10;for projects. I also love to take pictures of random&#10;objects that I find interesting because in the moment&#10;and circumstance, that object feels relatable, and by&#10;capturing the moment I can take it and go back to&#10;that instance.
+        <div class="typewriter" style="white-space: pre-wrap;">Hi My name is Abdul Qureshi&#10;&#10;I am a sophomore at NYU and I love to create&#10;from drawing in my sketchbook to writing code&#10;for communicating with a circuit. I like to&#10;make whatever comes to my mind by using various&#10;technologies and prototyping concepts. I love to read&#10;manga and watch anime. I am heavily inspired by Code&#10;Geass in my sketches and even in some of my ideas&#10;for projects. I also love to take pictures of random&#10;objects that I find interesting because in the moment&#10;and circumstance, that object feels relatable, and by&#10;capturing the moment I can take it and go back to&#10;that instance.
     </div> 
 
-    
-        <img  src="me_img.JPG" style="width:30%" class="rounded-corners" >
+    <div class = "container-me">
+        <img src="me_img.JPG" style="width:20%; margin-top: 0px; margin-left: 100px;" class="rounded-corners"title="This is me">
+
+    </div>
+
         
         <div class="scroll-container">
-            <p>Flowers:</p>
-            <img src="flower_img_.jpg" alt="Cinque Terre" width="600" height="600">
+            <p>Pictures I've taken of Flowers:</p>
+            <img src="flower_img_.jpg" alt="Cinque Terre" width="600" height="600" >
             <img src="flower_img_1.jpg" alt="Forest" width="600" height="600">
             <img src="flower_img_2.jpg" alt="Northern Lights" width="600" height="600">
             <img src="flower_img_3.jpg" alt="Mountains" width="600" height="600">
@@ -142,7 +174,7 @@
         </div>
 
         <div class="scroll-container-circuit">
-            <p>Circuits:</p>
+            <p>Circuits I've made:</p>
             <img src="circuits_img_2.jpg" alt="Cinque Terre" width="600" height="600">
             <img src="circuits_img_3.jpg" alt="Forest" width="600" height="600">
             <img src="circuits_img_4.jpg" alt="Northern Lights" width="600" height="600">
@@ -152,22 +184,26 @@
         </div>
 
         <div class="scroll-container-anime">
-            <p>Anime:</p>
-            <img src="anime_img_1.jpg" alt="Cinque Terre" width="600" height="600">
-            <img src="anime_img_2.jpg" alt="Forest" width="800" height="800">
-            <img src="anime_img_3.jpg" alt="Forest" width="800" height="800">
-            <img src="anime_img_4.jpg" alt="Northern Lights" width="800" height="800">
-            <img src="anime_img_5.jpg" alt="Mountains" width="800" height="800">           
-            <img src="anime_img_6.png" alt="Mountains" width="800" height="800">
-            <img src="anime_img_7.png" alt="Mountains" width="800" height="800">
-            <img src="anime_img_8.png" alt="Mountains" width="800" height="800">
-            <img src="anime_img_9.png" alt="Mountains" width="800" height="800">
+            <p>Anime I like:</p>
+            <img src="anime_img_1.jpg" title="Black Clover" alt="Black Clover" width="600" height="600">
+            <img src="anime_img_2.jpg" title="Tokyo Ghoul" alt="Tokyo Ghoul" width="800" height="800">
+            <img src="anime_img_3.jpg" title="Fire Force"alt="Fire Force" width="800" height="800">
+            <img src="anime_img_4.jpg" title="Attack on Titan"alt="Attack on Titan" width="800" height="800">
+            <img src="anime_img_5.jpg" title="Akame Ga Kill"alt="Akame Ga Kill" width="800" height="800">           
+            <img src="anime_img_6.png" title="Jujutsu Kaisen"alt="Jujutsu Kaisen" width="800" height="800">
+            <img src="anime_img_7.png" title="Code Geass"alt="Code Geass" width="800" height="800">
+            <img src="anime_img_8.png" title="Death Note"alt="Death Note" width="800" height="800">
+            <img src="anime_img_9.png" title="Vindland Saga"alt="Vindland" width="800" height="800">
         </div>
 
-        <div class="footer">
-            <p>Contact Me </p>
-        </div>
+      
+
+        
     </div>
+   
+    
+
+    
     <script>
         // Typewriter effect script
         function typeEffect(element, speed) {
@@ -188,5 +224,10 @@
         const typingElement = document.querySelector('.typewriter');
         typeEffect(typingElement, 50);
     </script>
+    <div class="footer">
+        <p>
+          
+        </p>
+    </div>
 </body>
 </html>
