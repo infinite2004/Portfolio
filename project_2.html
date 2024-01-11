@@ -6,13 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        h1, h3, p {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #3498db; /* Adjust link color */
+        }
+
+        .image-container {
+            display: flex; /* Use flexbox to arrange images side by side */
+            justify-content: center; /* Center-align the images within the container */
+            margin: 20px 0; /* Add some margin for spacing */
+        }
+
+        img {
+            margin: 0 10px; /* Add space between images */
+            max-width: 100%; /* Make sure images don't exceed container width */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+
     <title>Document</title>
 </head>
 <body>
     <ul>
-        <li><a class="active" href="portfolio.html">Go back </a></li>
-        
+        <li><a class="active" href="portfolio.html">Go back</a></li>
     </ul>
     <h1>Project 2 Street Fighter</h1>
+    <h3>Created by Abdul Qureshi</h3>
+
+    <p> This is a two-player game made in P5.js, Arduino, and P5.play to animate sprites and control 
+        them using p5.serialControl to enable a hand-held circuit that would control one player.
+        In order to win, a player must decrease the health of the other to 0 or vice versa using a 
+        character's abilities.
+    </p>
+
+    <a href="https://editor.p5js.org/qureshi.abdul.227/sketches/L1GVonlJq">Link to Code</a>
+
+    <p>Pictures of Project</p>
+
+    <div class="image-container">
+        <img src="circuits_img_6.jpg" alt="ciruit" width="400" height="500">
+        <img src="street_fighter_project.jpg" alt="ciruit" width="400" height="500">
+    </div>
 </body>
 </html>
